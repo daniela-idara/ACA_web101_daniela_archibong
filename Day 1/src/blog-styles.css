@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./space-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  a {
+    color:white;
+  }
+
+  a:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  header {
+    top: 0;
+    display: grid;
+    
+    background-color: purple;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    margin: auto;
+  }
+  
+  header > h1 {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  main {
+    height: auto;
+    width: 60%;
+    padding: auto;
+    margin: 5% auto;
+    grid-template-columns: 30% 40% 30%;
+ }
+
+ article {
+   border: 2px solid black;
+   margin: 2%;
+   padding: 10px;
+   background-color: grey;
+  }
+
+  article > h3 {
+    font-size: 3em;
+    padding: 0px 5px;
+  }
+
+  article:hover {
+    background-color: mediumpurple;
+    opacity: 0.5;
+  }
+
+  article > h3:hover {
+    color: silver;
+  }
+
+  .author {
+    float: left;
+    margin-left: 5px;
+  }
+  .date {
+    float: right;
+    margin-right: 10px;
+  }
+  
+
+.icon-parent {
+  text-align: center;
+  width: 30%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 25%;
+  padding: 15px;
+}
+
+.icon:hover {
+  background-color: white;
+}
+
+
+ footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 25px;
+  width: 100%;
+  background-color: purple;
+  color: white;
+  text-align: center;
+ }
