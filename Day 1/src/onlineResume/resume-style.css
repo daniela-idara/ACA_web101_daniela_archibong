@@ -1,0 +1,129 @@
+body {
+    font-family: Verdana Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: teal;
+    color: white;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    width: 100%;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+
+h2 {
+    color: teal;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#jobHeader {
+    line-height: 5%;
+}
+
+.align {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+  }
+
+article {
+    margin-bottom: 5%;
+}
+
+article > section {
+    margin-right: 5%;
+}
+#work h3 {
+    color: teal;
+}
+
+#loc {
+    float: right;
+    margin-right: 10px;
+}
+small {
+    color: teal;
+}
+aside {
+    height: 300px;
+    width: 30%;
+    padding-left: 1%;
+    display: table-cell;
+    background-color: white;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-filled {
+    height: 15px;
+    width: 15px;
+    background-color: teal;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+ul {
+  list-style: none;
+}
+
+main ul li::before {
+  content: "\2022";
+  color: teal;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+aside > #skills > ul li{
+    text-align: center;
+    background: #cce5ff;
+    margin: 5px;
+}
+
+ ul.no-bullet{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+}
+#lang ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.has-border {
+    border-radius: 25px;
+    border: 5px solid teal;
+    background: none;
+    padding: 2px; 
+  }
+
+main {
+  height: 300px;
+  width: 70%;
+  display: table-cell;
+  background-color: white;
+  font-size: 15px;
+}
