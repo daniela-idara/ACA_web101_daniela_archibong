@@ -25,9 +25,8 @@ h2 {
     color: teal;
     text-transform: uppercase;
     text-decoration: underline;
-}
-#jobHeader {
-    line-height: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .align {
@@ -41,10 +40,8 @@ article {
     margin-bottom: 5%;
 }
 
-article > section {
-    margin-right: 5%;
-}
-#work h3 {
+
+#work h3, small {
     color: teal;
 }
 
@@ -52,9 +49,12 @@ article > section {
     float: right;
     margin-right: 10px;
 }
-small {
-    color: teal;
+
+article.no-space, section.no-space {
+    line-height: 10%;
+    margin: 0;
 }
+
 aside {
     height: 300px;
     width: 30%;
@@ -80,6 +80,7 @@ aside {
 
 ul {
   list-style: none;
+  margin-top: 2%;
 }
 
 main ul li::before {
@@ -110,7 +111,7 @@ aside > #skills > ul li{
 #lang ul{
     list-style-type: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .has-border {
@@ -127,3 +128,4 @@ main {
   background-color: white;
   font-size: 15px;
 }
+
