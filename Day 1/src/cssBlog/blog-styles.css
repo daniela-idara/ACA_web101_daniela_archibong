@@ -24,6 +24,7 @@ body {
 
   a {
     color:white;
+    text-decoration: none;
   }
 
   a:hover {
@@ -38,7 +39,7 @@ body {
     top: 0;
     background-color: purple;
     width: 100%;
-    height: 20%;
+    height: auto;
   }
   
   header > h1 {
@@ -119,4 +120,5 @@ body {
 
  footer {
    background-color: dodgerblue;
+   height: auto;
  }
