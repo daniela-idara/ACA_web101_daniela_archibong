@@ -40,11 +40,12 @@ body {
     background-color: purple;
     width: 100%;
     height: auto;
+   
   }
   
   header > h1 {
-    margin: 20px;
-    padding: 30px; 
+    margin: 10px;
+    padding: 10px; 
     text-align: center;
   }
 
@@ -88,10 +89,11 @@ body {
 
 .icon-parent {
   text-align: center;
+  display: inline-block;
   width: 30%;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .icon {
@@ -99,7 +101,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 15%;
-  height: 25%;
+  height: auto;
   padding: 15px;
 }
 
@@ -107,6 +109,11 @@ body {
   background-color: white;
 }
 
+span {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
  footer {
   position: fixed;
   left: 0;
@@ -116,6 +123,8 @@ body {
   background-color: purple !important;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 0;
  }
 
  footer {
