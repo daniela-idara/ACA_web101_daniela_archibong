@@ -20,6 +20,7 @@ height: 18%;
 position: fixed;
 top: 0;
 left: 0;
+
 }
 
 main {
@@ -69,6 +70,11 @@ aside {
  display: inline-block;
  margin: 18% auto;
   
+}
+
+h1, h2, #portfolio {
+  position: relative;
+  z-index: -1;
 }
 
 h1 {
@@ -129,7 +135,7 @@ input {
 display: none;
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 750px) {
 header {
 position: absolute;
 text-align:center;
@@ -198,7 +204,7 @@ main {
   text-align: center;
 }
 #profile-pic {
-   margin-top: 20%;
+   margin-top: 25%;
    margin-bottom:0;
 }
 
