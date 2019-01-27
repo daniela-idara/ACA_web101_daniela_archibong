@@ -50,10 +50,12 @@ article {
     margin-right: 10px;
 }
 
-article.no-space, section.no-space {
+article.no-space, section.no-space, h2.no-space {
     line-height: 10%;
     margin: 0;
+    width: auto;
 }
+
 
 aside {
     height: 300px;
