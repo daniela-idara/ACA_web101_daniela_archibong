@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 1fr 4fr 40px;
+  grid-template-areas:
+    "sidenav header"
+    "sidenav main"
+    "sidenav footer";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: #648ca6;
+  padding: 25px;
+  letter-spacing: 3px;
+}
+h1 {
+  margin: 0;
+}
+.sidenav {
+  grid-area: sidenav;
+  background-color: #394263;
+}
+
+.main {
+  grid-area: main;
+  background-color: #8fd4d9;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #648ca6;
+}
+.sidenav {
+    display: flex; /* Will be hidden on mobile */
+    flex-direction: column;
+    grid-area: sidenav;
+    background-color: #394263;
+  }
+  .sidenav-list {
+    padding: 0;
+    margin-top: 85px;
+    list-style-type: none;
+  }
+  .sidenav-list-item {
+    padding: 20px 20px 20px 40px;
+    color: #ddd;
+  }
+  .sidenav-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+ .main-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e3e4e6;
+    color: slategray;
+  }
+.main-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-auto-rows: 200px;
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .widget {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #d3d3;
+  }
+  .widget-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      background-color: #d3d3;
+    }
+
+    .to-do {
+      padding-left: 5px;
+      list-style-type: none;
+    }
+    
+    .to-do-item:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+  }
+  .btn {
+      border: none;
+      background-color: yellow;
+      padding: 2px;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+  .widget-calc {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #d3d3;
+    }
+    .widget-calendar {
+      display: inline-block;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1px;
+      background-color: #d3d3;
+    }
+@media (max-width: 600px) {
+
+.grid-container {
+  grid-template-rows: 1fr 50px 4fr 1fr;
+  grid-template-areas: 
+    "header header  header"
+    "sidenav sidenav sidenav"
+    "main    main    main"
+    "footer footer  footer"
+ }
+ .sidenav {
+  flex-direction: row; 
+}
+.sidenav-list {
+  display: inline;
+  padding: 0;
+  margin-top: 2px;
+  list-style-type: none;
+}
+.sidenav-list-item {
+    display: inline-block;
+    align: center;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    height: 100%;
+}
+}
