@@ -1,0 +1,62 @@
+body {
+    background-color: dodgerblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.border {
+    display: grid;
+    background-color: hotpink;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 15px; 
+    text-align: center;
+}
+
+.calc-btn {
+    display: grid;
+    margin: 2px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "display display display display"
+                        "seven eight nine divide"
+                        "four five six multiply"
+                        "one two three minus"
+                        "zero period equal plus";
+}
+
+.display {
+    height: 100px;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px; 
+    text-align: right; 
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: lime;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px; 
+    font-weight: bold;
+    text-align: center;  
+    box-shadow: 3px 3px #888888;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover{
+    color: purple;
+    background-color: yellow;
+}
