@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Dashboard</title>
+    <link rel="stylesheet" href="portfolio-style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Hello, Daniela!</h1>
+            <iframe src="https://free.timeanddate.com/clock/i6m1mf3r/n4388/fn2/fs16/tc648ca6/pc648ca6/ftb/pa8/tt0/tw1/tm1/th2/ta1/tb4"
+                frameborder="0" width="170" height="52" align="right"></iframe>
+        </header>
+        <aside class="sidenav">
+            <ul class="sidenav-list">
+                <li class="sidenav-list-item">Nav One</li>
+                <li class="sidenav-list-item">Nav Two</li>
+                <li class="sidenav-list-item">Nav Three</li>
+                <li class="sidenav-list-item">Nav Four</li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div id="image"></div>
+            <div class="main-overview">
+                <div class="widget">
+                    <p>To-Do List</p>
+                    <div class="widget-list">
+                        <ul class="to-do">
+                            <li class="to-do-item">Thing</li>
+                            <li class="to-do-item">Stuff</li>
+                            <li class="to-do-item">More</li>
+                            <li><input type="text" size="10"><button class="btn add">ADD</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget">
+                    Placeholder
+                    <div class="widget">Another Widget</div>
+                </div>
+                <div class="widget">
+                    <div class="widget-calc">
+                        <form name="calculator">
+                            <input type="text" name="answer" / size="15">
+                            <br>
+
+                            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+                            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+                            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+                            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+                            <br />
+
+                            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+                            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+                            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+                            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+                            </br>
+
+                            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+                            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+                            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+                            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+                            </br>
+
+                            <input type="button" value=" C " onclick="calculator.answer.value = ''" />
+                            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+                            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+                            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+                            </br>
+
+
+                        </form>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-calendar"><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=purpleelephant1987%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FChicago"
+                            style="border-width:0" width="190" height="150" frameborder="0" scrolling="no"></iframe></iframe></div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
