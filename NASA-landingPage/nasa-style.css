@@ -6,7 +6,7 @@ main {
     font-family: 'Play', sans-serif;
     color: white;
     height: 450px;
-    background-image: url(nasa-space.jpg);
+    background-image: url(../src/img/nasa-space.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     margin-bottom: 50px;

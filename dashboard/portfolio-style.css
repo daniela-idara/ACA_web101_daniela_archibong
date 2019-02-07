@@ -30,7 +30,7 @@ h1 {
 
 .main {
   grid-area: main;
-  background-image: url(bgcity.jpeg);
+  background-image: url(../src/img/bgcity.jpeg);
   position: relative;
 }
 
