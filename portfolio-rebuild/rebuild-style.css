@@ -2,16 +2,17 @@ body {
     padding: 0;
     margin: 0;
 }
-img {
-    margin-top: 20px;
-    margin-left: 50px;
-}
+
 header {
     border-bottom: 5px solid black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: magenta;
+}
+
+img {
+    padding: 5px;
 }
 a {
     text-decoration: none;
@@ -24,7 +25,9 @@ a:hover {
 ul li:hover {
     background-color: deeppink;
 }
-
+ul {
+    padding-left: 0px;
+}
 ul li {
     display: inline-block;
     border: 2.5px solid cyan;

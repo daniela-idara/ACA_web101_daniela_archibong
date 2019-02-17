@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: magenta;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+main {
+    padding: 10px;
+    
+}
+img {
+    display: block;
+    margin:  auto;
+    border: 5px solid black;
+}
+
+div, legend, fieldset {
+    border: 5px solid black;
+}
+.quote {
+    padding-bottom: 20px;
+    width: 400px;
+    grid-area: quote;
+}
+cite {
+    display: block;
+    padding-right: 20px;
+    text-align: right;
+}
+div {
+    padding: 0 5px;
+    margin: 10px auto;
+    width: 80%;
+    height: 70%;
+}
+
+.about {
+    grid-area: about;
+    width: 80%;
+}
+
+div > p {
+    text-indent: 20px;
+}
+
+legend {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 150px;
+    margin: auto;
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    text-align: center;
+    border-top: 5px solid black;
+    grid-area: footer; 
+}
+
+@media ( min-width:700px) {
+    h1 {
+        
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 600px 500px;
+        grid-template-rows: 200px 300px 50px;
+        grid-template-areas:
+            "about quote"
+            "about goals"
+            "footer footer";
+        height: 75vh; 
+        margin: auto;
+        padding: auto;   
+      }
+      main {
+          padding-top: 150px;
+          margin: auto;
+          padding: auto;
+      }
+    .about {
+        width: 100%;
+        height: 72%;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 70px;
+        margin-bottom: 150px;
+      }
+    .quote {
+        height: 150px;
+        margin-left: 70px;
+        margin-right: 70px;
+      }
+
+      header, footer {
+          position: fixed;
+          width: 100%;
+          left: 0;   
+      }
+    footer {
+       bottom: 0;
+    }
+    fieldset {
+        margin-top: 10px;
+    }
+}
