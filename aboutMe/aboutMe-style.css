@@ -46,6 +46,7 @@ div {
 .about {
     grid-area: about;
     width: 80%;
+    height: auto;
 }
 
 div > p {
@@ -73,9 +74,7 @@ footer {
 }
 
 @media ( min-width:700px) {
-    h1 {
-        
-    }
+    
     .grid-container {
         display: grid;
         grid-template-columns: 600px 500px;
@@ -95,7 +94,7 @@ footer {
       }
     .about {
         width: 100%;
-        height: 72%;
+        height: 360px;
         padding-bottom: 20px;
         margin-left: 20px;
         margin-right: 70px;
