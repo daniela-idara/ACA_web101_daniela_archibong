@@ -27,8 +27,8 @@ div, legend, fieldset {
     border: 5px solid black;
 }
 .quote {
-    padding-bottom: 20px;
-    width: 400px;
+    padding-bottom: 35px;
+    width: 350px;
     grid-area: quote;
 }
 cite {
@@ -47,8 +47,6 @@ div {
     grid-area: about;
     width: 80%;
     height: auto;
-    margin: auto;
-    padding: auto;
 }
 
 div > p {
