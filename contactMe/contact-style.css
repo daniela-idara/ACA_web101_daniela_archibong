@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: magenta;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 20px;
+}
+a {
+    text-decoration: none;
+}
+main {
+    padding: 10px; 
+}
+
+img {
+    display: block;
+    margin:  auto;
+    border: 5px solid black;
+}
+
+form, fieldset, legend, .quote {
+    border: 5px solid black;
+}
+section {
+    grid-area: form;
+}
+.quote {
+    width: 200px;
+    margin-bottom: 25px;
+    height: 200px;
+    grid-area: quote;
+}
+form > p {
+    text-align: center;
+    font-weight: bold;
+}
+div {
+    padding: 0 5px;
+    margin: 10px auto;
+    width: 80%;
+    height: 70%;
+}
+
+legend {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+}
+
+fieldset {
+    width: 150px;
+    margin: auto;
+}
+.contact {
+    grid-area: contact;
+}
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    text-align: center;
+    border-top: 5px solid black;
+    grid-area: footer; 
+}
+cite {
+    display: block;
+    padding-right: 20px;
+    text-align: right;
+}
+form {
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+}
+
+input, textarea {
+    margin-bottom: 5px;
+}
+textarea {
+    resize: inherit;
+}
+@media ( min-width:700px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "contact form quote";
+        height: 75vh; 
+        margin: auto;
+        padding: auto;   
+      }
+      main {
+          padding-top: 150px;
+          margin: auto;
+          padding: auto;
+      }
+    .quote {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        margin-right: 70px;
+        margin-bottom: 150px;
+      }
+      form {
+        margin-bottom: 150px;
+      }
+      header, footer {
+          position: fixed;
+          width: 100%;
+          left: 0;   
+      }
+    footer {
+       bottom: 0;
+    }
+    fieldset {
+        margin-top: 10px;
+    }
+    
+}
