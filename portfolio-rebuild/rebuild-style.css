@@ -37,22 +37,32 @@ ul li {
     background-color: rgb(137, 79, 231);
 }
 main {
-    padding: 20px;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+article {
     background-color: cyan;
+    border: 5px solid black;
+    margin-top: 20px;
+    grid-area: video-box;
 }
 video {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 iframe {
     width: 560;
     height: 315;
+    padding-bottom: 30px;
 }
 section {
-    background-color: yellow;
+    background-color: white;
     padding: 20px;
+    grid-area: form-box;
 }
 div {
+    background-color: yellow;
     border: 5px solid black;
     width: 200px;
     height: 250px;
@@ -69,15 +79,45 @@ textarea {
     resize: inherit;
 }
 footer {
+    margin: 0;
     padding: 20px;
     background-color: magenta;
     font-weight: bold;
-    text-align: center; 
+    text-align: center;
+    border-top: 5px solid black;
+    grid-area: footer; 
 }
 
-/* @media only screen and (max-width: 600px)  {
+@media only screen and (min-width:700px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:  "video-box form-box";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
     
-   .grid-container  {
-       grid-template-areas: 
-   } 
-} */
+        header {
+            position: fixed;
+            width: 100%;
+            left: 0;   
+        }
+        main {
+            margin-bottom: 150px;
+            height: 80%;
+           
+        }
+        video {
+            height: 80%;
+        }
+        section, article{
+            margin-top: 250px;
+        }
+        footer {
+            position: fixed;
+            width: 100%;
+            left: 0; 
+            bottom: 0;
+        }
+   
+
+}

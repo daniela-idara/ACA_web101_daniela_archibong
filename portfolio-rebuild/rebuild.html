@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +8,55 @@
     <title>Portfolio-Rebuild</title>
     <link rel="stylesheet" href="rebuild-style.css">
 </head>
+
 <body>
     <header>
         <img src="namelogo.png" alt="Daniela Archibong Logo">
         <nav>
-       <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Links</a></li>
-           <li><a href="#">Projects</a></li>
-       </ul> 
-    </nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <main class="grid-container">
+        <article>
             <video controls width="250">
 
-                    <source src="video.3gp"
-                            type="video/3gp">
-                
-                    <source src="video.mp4"
-                            type="video/mp4">
-                
-                      <p>Your browser doesn't support HTML5 video.</p>
+                <source src="video.3gp" type="video/3gp">
+
+                <source src="video.mp4" type="video/mp4">
+
+                <p>Your browser doesn't support HTML5 video.</p>
             </video>
 
-            <iframe src="https://www.youtube.com/embed/MGQjyGT1-mc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/MGQjyGT1-mc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    </main>
-    <section> 
-    <div>       
-        <form>
-            <span>Name :</span>
-            <input type="text" name="name" id="name" required>
-            <span>E-mail :</span>
-            <input type="text" name="email" id="email" required>
-            <span>Location :</span>
-            <input type="text" name="loc" id="loc" required>
-            <span>Message :</span>
-                <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
-            <input type="reset" value="Reset">    
-            <input type="submit" value="Submit">  
-        </form>
-    </div> 
-</section>
+        </article>
+        <section>
+            <div>
+                <form>
+                    <span>Name :</span>
+                    <input type="text" name="name" id="name" required>
+                    <span>E-mail :</span>
+                    <input type="text" name="email" id="email" required>
+                    <span>Location :</span>
+                    <input type="text" name="loc" id="loc" required>
+                    <span>Message :</span>
+                    <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>    
     <footer>
-            <p>© copyright 2019 | all rights reserved.</p>
+        <p>© copyright 2019 | all rights reserved.</p>
 
-        </footer>
+    </footer>
 </body>
+
 </html>
