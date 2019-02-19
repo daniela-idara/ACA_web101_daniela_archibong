@@ -53,10 +53,8 @@ float: right;
   animation-duration: 3s;
   animation-delay: 2s;
 }
-.purple {
-  animation-duration: 600s;
-  animation-delay: 1s;
-}
+
+
 a {
 color: rgb(91, 241, 3);
 text-decoration: none;
