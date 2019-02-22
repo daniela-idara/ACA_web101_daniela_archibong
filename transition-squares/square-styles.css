@@ -1,0 +1,55 @@
+.square {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border: 5px solid black;
+}
+.red {
+    background-color: red;
+}
+.pink {
+    background-color: hotpink;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.lime {
+    background-color: lime;
+}
+.green {
+    background-color: green;
+}
+
+.ltblue {
+    background-color: dodgerblue;
+}
+.blue {
+    background-color: blue;
+}
+.ltpurp {
+    background-color: #9370db;
+}
+.purple {
+    background-color: purple;
+}
+.brown {
+    background-color: #654321;
+}
+.black {
+    background-color: black;
+}
+/* Rotates odd squares quickly to the right and doubles in size */
+
+.wrapper:hover .square:nth-child(odd) {
+    transition: all 2s ease-in-out;
+    transform: translateX(100px) scale(2,2) rotate(90deg);
+}
+/* Rotates even squares counterclockwise  slowly to the left and shrinks in size by half */
+.wrapper:hover .square:nth-child(even) {
+    transition: all 5s ease-out;
+    transform: translateX(-100px) scale(.5,.5) rotate(-90deg) ;
+}
+
