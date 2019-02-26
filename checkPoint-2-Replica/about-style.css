@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+header {
+    border-bottom: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: magenta;
+    padding: 20px;
+    margin-top: 0;
+}
+
+main {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+main > div > p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 450px;  
+}
+h2:hover {
+    transition: all 2s ease-in-out;
+    transform: translateX(100px) scale(2,2) rotate(360deg);
+}
+iframe {
+    width: 560px;
+    height: 315px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+form > p {
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    border: 5px solid black;
+    background-color: yellow;
+    width: 190px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+}
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+@media ( min-width:700px) {
+
+
+      header, footer {
+          position: fixed;
+          width: 100%;
+          left: 0;   
+      }
+    footer {
+       bottom: 0;
+    }
+    
+}
