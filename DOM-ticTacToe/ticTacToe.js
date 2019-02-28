@@ -3,18 +3,15 @@ var gameMarker = "O"
 
 
 function changeMarkerToX(){ 
-    var gameMarker = "X";
+     gameMarker = "X";
     console.log("The X button was clicked!");
 } 
 
 function changeMarkerToO(){
-    var gameMarker = "O";
+     gameMarker = "O";
     console.log("The O button was clicked!");
  }
 
- function placeMark(){ 
-    
- }
 
  var buttons = document.querySelectorAll('.square');
  for (var button of buttons) {
@@ -23,15 +20,6 @@ function changeMarkerToO(){
     this.innerHTML = gameMarker;
   });
 }
-
-
-//  var buttons = document.querySelectorAll('.square');
-//  for (var button of buttons) {
-//   button.addEventListener('click', function() {
-//     console.log("click");
-//     this.innerHTML = gameMarker;
-//   });
-// }
 
 
 // // Query all button elements
