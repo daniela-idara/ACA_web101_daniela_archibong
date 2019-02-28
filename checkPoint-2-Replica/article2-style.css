@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+header {
+    border-bottom: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F08080;
+    padding: 20px;
+    margin-top: 0;
+}
+
+main {
+    padding-top: 200px;
+}
+main > div > p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 250px;
+    
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+@media ( min-width:700px) {
+
+
+      header, footer {
+          position: fixed;
+          width: 100%;
+          left: 0;   
+      }
+    footer {
+       bottom: 0;
+    }
+    
+}
