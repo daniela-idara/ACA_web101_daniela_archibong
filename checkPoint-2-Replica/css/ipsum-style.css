@@ -8,7 +8,7 @@ header {
     border-bottom: 5px solid black;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(bgimg.jpeg);
+    background-image: url(../src/bgimg.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
