@@ -8,6 +8,7 @@ body {
     grid-template-columns: 100px 102px 100px;
     grid-template-rows: 100px 102px 100px;  
     justify-content: center;
+    padding-top: 50px;
 }
 
 .square {
@@ -44,4 +45,25 @@ body {
 .bottom-right {
     border-top: 2px solid hotpink;
     border-left: 2px solid hotpink;
+}
+.center-buttons {
+    display: flex;
+    padding-top: 50px;
+    width: 100px;
+    margin: auto;
+}
+.button {
+    border-radius: 25%;
+    width: 50px;
+    background-color: lime;
+    border: 2px solid dodgerblue;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.button:hover {
+    background-color: fuchsia;
+    color: orange;
 }

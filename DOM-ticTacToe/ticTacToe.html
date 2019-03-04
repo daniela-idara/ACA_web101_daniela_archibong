@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,31 @@
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="ticTacToe-style.css">
 </head>
+
 <body>
     <div class="grid-container" id="tic-tac-toe">
         <div class="square top-left"></div>
         <div class="square"></div>
         <div class="square top-right"></div>
-    
+
         <div class="square"></div>
         <div class="square center"></div>
         <div class="square"></div>
-    
+
         <div class="square bottom-left"></div>
         <div class="square"></div>
         <div class="square bottom-right"></div>
     </div>
 
+    <div class="center-buttons">
+        <div class="button" value="X" onclick="changeMarkerToX()">
+            <h2> X </h2>
+        </div>
+        <div class="button" value="O" onclick="changeMarkerToO()">
+            <h2> O </h2>
+    </div>
+    <script src="ticTacToe.js"></script>
 
-   <input type="button" value="X" onclick="changeMarkerToX()">
-
-   <input type="button" value="O" onclick="changeMarkerToO()">
-
-   <script src="ticTacToe.js"></script>
-   
 </body>
+
 </html>
