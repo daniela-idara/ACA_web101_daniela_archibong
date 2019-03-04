@@ -1,52 +1,65 @@
+body {
+  margin: 150px;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color:hotpink;
+  -ms-transform: rotate(-90deg); 
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  border: 5px solid black;
+  margin: auto;
+}
+ 
+
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 [data-row] {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 34px;
-    margin: 25px;
-    border: 1px solid lightgray;
+    height: 10px;
+    margin: 80px;
+    border: 1px solid black;
   }
   
-  [data-row].red {
+  [data-row].pink {
     background-color: #f6c5c5;
   }
   
   [data-row].yellow {
-    background-color: #ffffa9;
+    background-color: #f1f184;
   }
   
   [data-row].green {
-    background-color: #baf6ba;
-  }
-  
-  [data-row].blue {
-    background-color: aliceblue;
+    background-color: #baf6ee;
   }
   
   [data-color] {
     width: 25px;
     float: left;
     border-radius: 15px;
+    border: 1px solid black;
   }
   
   [data-color="blue"] {
     height: 33px;
-    background-color: blue;
+    background-color: rgb(9, 156, 214);
   }
   
   [data-color="green"] {
     height: 50px;
-    background-color: green;
+    background-color: rgb(37, 160, 43);
   }
   
-  [data-color="red"] {
+  [data-color="purple"] {
     height: 65px;
-    background-color: red;
+    background-color: rgb(89, 0, 255);
   }
   
-  
-  #announce-game-won {
-    font-size: 50px;
-    text-align: center;
-  }
   
