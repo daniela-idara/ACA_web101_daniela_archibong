@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border: 5px solid black;
+}
+
+img {
+  float: left;
+  height: 400px;
+  margin-left: 90px;
+}
+
+.score {
+  padding-top: 50px;
+  text-align: center;
+  margin-left: 115px;
+}
+
+table {
+  margin-left: 50px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.options {
+  float: right;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+#announce, #announceCool {
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 50px;
+  display: none;
+}
+section {
+  display: flex;
+  width: 300px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#star-five {
+  color: black;
+  font-size: 7em;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
+circle {
+  stroke: black;
+  stroke-width: 3;
+}
+.pink {
+    background-color: hotpink;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.lime {
+    background-color: lime;
+}
+.green {
+    background-color: green;
+}
+.ltblue {
+    background-color: dodgerblue;
+}
+.blue {
+    background-color: blue;
+}
+.ltpurp {
+    background-color: #9370db;
+}
+.purple {
+    background-color: purple;
+}
+.brown {
+    background-color: #654321;
+}
+.black {
+    background-color: black;
+}

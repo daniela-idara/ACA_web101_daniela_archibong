@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Clicker Game</title>
+    <link rel="stylesheet" href="clickGame-style.css">
+</head>
+<header><h1>Color Clicker Game</h1></header>
+<body>
+
+    <div class="score">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Warm</th>
+                    <th>Cool</th>
+                </tr>
+            </thead>
+            <tr>
+                <td id="warmTotal">0</td>
+                <td id="coolTotal">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <img src="https://www.bassettfurniture.com/_images/Color_Wheel.jpg">
+
+    <div class="options">
+
+        <p>
+            <label id="announce"></label>
+        </p>
+
+        <section>
+            <svg class="redCircle">
+                <circle cx="25" cy="25" r="20" fill="red" />
+            </svg>
+
+            <svg class="orangeCircle">
+                <circle cx="25" cy="25" r="20" fill="orange" />
+            </svg>
+
+            <svg class="yellowCircle">
+                <circle cx="25" cy="25" r="20" fill="yellow" />
+            </svg>
+
+            <svg class="greenCircle">
+                <circle cx="25" cy="25" r="20" fill="green" />
+            </svg>
+
+            <svg class="blueCircle">
+                <circle cx="25" cy="25" r="20" fill="dodgerblue" />
+            </svg>
+
+            <svg class="purpleCircle">
+                <circle cx="25" cy="25" r="20" fill="purple" />
+            </svg>
+        </section>
+
+        <button value="click" id="warm">Toggle Warm Colors</button>
+
+        <button value="click" id="cool">Toggle Cool Colors</button>
+
+        <button value="click" id="neut">Toggle Neutral</button>
+
+        <p>
+            <label id="announceCool"></label>
+        </p>
+
+        <p>
+
+            <label id="star-five" class="fas fa-star"></label>
+            <label id="star-five" class="far fa-star"></label>
+            <label id="star-five" class="fas fa-star"></label>
+
+        </p>
+    </div>
+
+
+
+
+    <div class="wrapper">
+        <div class="square pink"></div>
+        <div class="square red"></div>
+        <div class="square orange"></div>
+        <div class="square yellow"></div>
+        <div class="square lime"></div>
+        <div class="square green"></div>
+        <div class="square ltblue"></div>
+        <div class="square blue"></div>
+        <div class="square ltpurp"></div>
+        <div class="square purple"></div>
+        <div class="square brown"></div>
+        <div class="square black"></div>
+    </div>
+
+    <div class="space"></div>
+
+    <script src="https://code.jquery.com/jquery-1.12.3.js"
+        integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+
+
+    <script src="clickGame.js"></script>
+    
+</body>
+<footer></footer>
+</html>
