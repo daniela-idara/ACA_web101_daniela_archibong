@@ -23,6 +23,17 @@ body {
     font-size: 84px;
 }
 
+#turn, #score {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: monospace;
+}
+
+#score {
+  margin-bottom: 15px;
+}
+
 .top-left {
     border-right: 2px solid hotpink;
     border-bottom: 2px solid hotpink;
@@ -46,24 +57,30 @@ body {
     border-top: 2px solid hotpink;
     border-left: 2px solid hotpink;
 }
-.center-buttons {
-    display: flex;
+.centered-divs {
+    display: block;
     padding-top: 50px;
-    width: 100px;
+    width: 150px;
     margin: auto;
 }
+
 .button {
-    border-radius: 25%;
-    width: 50px;
     background-color: lime;
     border: 2px solid dodgerblue;
     font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     text-align: center;
-    margin: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin: 3px 2px;
+    border-radius: 2px;
+    padding: 0.6em 1.2em;
 }
 .button:hover {
     background-color: fuchsia;
     color: orange;
+}
+
+.win {
+  color: #F9690E;
 }
