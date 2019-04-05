@@ -10,27 +10,30 @@
 </head>
 
 <body>
-    <div class="grid-container" id="tic-tac-toe">
-        <div class="square top-left"></div>
-        <div class="square"></div>
-        <div class="square top-right"></div>
+    <span id="turn" class="centered-divs">Play</span>
 
-        <div class="square"></div>
-        <div class="square center"></div>
-        <div class="square"></div>
+<div class="grid-container" id="tic-tac-toe">
+        <div id="box1" class="square top-left"></div>
+        <div id="box2" class="square"></div>
+        <div id="box3" class="square top-right"></div>
 
-        <div class="square bottom-left"></div>
-        <div class="square"></div>
-        <div class="square bottom-right"></div>
+        <div id="box4" class="square"></div>
+        <div id="box5" class="square center"></div>
+        <div id="box6" class="square"></div>
+
+        <div id="box7" class="square bottom-left"></div>
+        <div id="box8" class="square"></div>
+        <div id="box9" class="square bottom-right"></div>
     </div>
-
-    <div class="center-buttons">
-        <div class="button" value="X" onclick="changeMarkerToX()">
+   <div class="centered-divs">
+     <div id="score">Score</div>
+     <button class="button" id="reset-game" onclick="clearGame()">Reset Game</button>
+       <!-- <div class="button" value="X" onclick="changeMarkerToX()">
             <h2> X </h2>
         </div>
         <div class="button" value="O" onclick="changeMarkerToO()">
-            <h2> O </h2>
-    </div>
+            <h2> O </h2> -->
+    </div> 
     <script src="ticTacToe.js"></script>
 
 </body>
